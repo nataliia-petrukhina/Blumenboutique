@@ -1,464 +1,396 @@
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'MerriweatherSans';
-    src: url('../fonts/MerriweatherSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MerriweatherSans';
-    src: url('../fonts/MerriweatherSans-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PlaywriteDKLoopet';
-    src: url('../fonts/PlaywriteDKLoopet-ExtraLight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
-
 header {
-
-    /*   position: fixed; */
-    z-index: 1000;
-    width: 100%;
-    height: 55px;
-    justify-content: space-around;
-    /*  align-items: center; */
-    background-color: #78b9e189;
+  /*   position: fixed; */
+  z-index: 1000;
+  width: 100%;
+  height: 55px;
+  justify-content: space-around;
+  /*  align-items: center; */
+  background-color: #78b9e189;
 }
 
 header div {
-    display: flex;
+  display: flex;
 }
 
-
 header h1 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px;
-    color: rgb(10, 94, 66);
-    font-family: 'Merriweather', serif;
-    font-weight: normal;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  color: rgb(10, 94, 66);
+  font-family: "Playpen Sans", cursive;
+  font-weight: normal;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: Merriweather;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Playpen Sans", cursive;
 }
 
-
-
-
 .nav-section {
-    display: flex;
-    justify-content: flex-end;
-
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a {
-    color: rgb(23, 13, 0);
-    text-decoration: none;
-    padding: 20px;
-
-
+  color: rgb(23, 13, 0);
+  text-decoration: none;
+  padding: 20px;
 }
-
 
 .overlay-text {
-    position: absolute;
-    font-family: Merriweather;
-    line-height: 40px;
-    letter-spacing: 10px;
-    font-size: 95px;
-    text-align: center;
-    color: rgba(95, 98, 196, 0.612);
+  position: absolute;
+  font-family: Merriweather;
+  line-height: 40px;
+  letter-spacing: 10px;
+  font-size: 95px;
+  text-align: center;
+  color: rgba(95, 98, 196, 0.612);
 }
 
-
 .flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex img {
-    width: 100vw;
-    height: 400px;
-    object-fit: cover;
-    border: 1px solid rgba(255, 255, 255, 0.557);
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.557);
 }
 
 .main_drei_bilder {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
 
 .bilder {
-    width: 300px;
-    background-color: gainsboro;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid black;
-    margin: 40px;
-    overflow: hidden;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.37);
+  width: 300px;
+  background-color: gainsboro;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 40px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.37);
 }
 
-
 .bilder img {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .bilder p {
-    font-family: sans-serif
+  font-family: sans-serif;
 }
-
-
 
 .geschichte {
-    display: flex;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    font-family: 'PlaywriteDKLoopet', serif;
-    font-weight: normal;
-    margin: 18px;
-
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  font-family: "PlaywriteDKLoopet", serif;
+  font-weight: normal;
+  margin: 18px;
 }
 
-
 .story {
-    height: 600px;
-    background-color: gainsboro;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid rgba(61, 120, 209, 0.557);
+  height: 600px;
+  background-color: gainsboro;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgba(61, 120, 209, 0.557);
 }
 
 .story h2 {
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    color: rgb(10, 94, 66);
+  font-size: 35px;
+  display: flex;
 
-
+  justify-content: center;
+  color: rgb(10, 94, 66);
 }
 
 #motto h3 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(220, 220, 220);
-    font-size: 27px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(220, 220, 220);
+  font-size: 27px;
 }
 
-
 .story h3 {
+  font-family: "Caveat", cursive;
 
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    color: rgba(10, 94, 66, 0.676);
-    max-width: 1150px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 10px;
-
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  color: rgba(10, 94, 66, 0.676);
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 10px;
 }
 
 .card-contaner {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin: 14px;
 }
 
 .card {
-    width: 310px;
-    background-color: rgba(189, 201, 192, 0.438);
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.584);
-    overflow: hidden;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.571);
-
+  width: 15rem;
+  height: 30rem;
+  background-color: rgba(189, 201, 192, 0.438);
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .card img {
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
 }
 
 .card p {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .card-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .card-content {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .text-and-button {
-    display: flex;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
 .card-text {
-    text-align: start;
-    flex: 1;
+  text-align: start;
+  flex: 1;
 }
 
 .buy-button {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-
-
-
 div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 #lief {
-    background-image: url(../bilder/photo_2024-07-28_14-44-22.jpg);
-    background-size: cover;
-    height: 950px;
-    width: 100%;
-    font-family: 'PlaywriteDKLoopet', serif;
-    margin: 0 18px;
-    border: 1px solid rgba(61, 120, 209, 0.557);
+  background-image: url(./bilder/photo_2024-07-28_14-44-22.jpg);
+  background-size: cover;
+  height: 950px;
+  width: 100%;
+  font-family: "PlaywriteDKLoopet", serif;
+  margin: 0 18px;
+  border: 1px solid rgba(61, 120, 209, 0.557);
 }
 
 #beschreiben {
-    font-size: 18px;
-    margin: 30px;
-    padding: 40px;
+  font-size: 18px;
+  margin: 30px;
+  padding: 40px;
 }
-
-
 
 .story {
-    width: 100%;
-    height: 400px;
-    background-color: gainsboro;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid rgba(61, 120, 209, 0.557);
+  width: 100%;
+  height: 400px;
+  background-color: gainsboro;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgba(61, 120, 209, 0.557);
 }
-
-
 
 .container_img {
-    width: 100%;
+  width: 100%;
 }
 
-
 .form-overlay {
-
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .image {
-
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 7px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 7px;
 }
 
 .form-container {
-    margin-top: 150px;
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-container h2 {
-    text-align: center;
-    font-size: 18px;
-    padding: 10px;
-    margin-top: 30;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+
+  text-align: center;
+  padding: 10px;
+  margin-top: 30;
 }
 
-
 .form-container label {
-    width: 500px;
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  width: 500px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
 }
 
 .form-container input,
 .form-container textarea {
-    width: 500px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #6df069;
-    border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6df069;
+  border-radius: 5px;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
 }
 
-
 .recherchieren {
-    width: 600px;
+  width: 600px;
 }
 
 .form-container input[type="submit"] {
-    width: 500px;
-    padding: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 500px;
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
 }
 
 .container_kontakt {
-    background-image: url(..//bilder/IMG_7317.JPG);
-    width: 100%;
-    height: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  background-image: url(./bilder/IMG_7317.JPG);
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
 }
 
 .heading {
-    text-align: center;
-    font-size: 40px;
-    font-family: PlaywriteDKLoopet;
-    margin-bottom: 20px;
-    padding: 20px;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .content_kontakt {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .map iframe {
-    border: 6px;
-    border-radius: 10px;
-    /* Скругление углов */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.388);
-    /* Тень */
+  border: 6px;
+  border-radius: 10px;
+  /* Скругление углов */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.388);
+  /* Тень */
 }
 
 .map {
-
-    margin-right: 20px;
-    max-width: 100%;
+  margin-right: 20px;
+  max-width: 100%;
 }
 
 .text_kontakt {
-    font-size: 11px;
-    font-family: PlaywriteDKLoopet;
-    text-align: left;
+  font-size: 11px;
+  font-family: PlaywriteDKLoopet;
+  text-align: left;
 }
 
 .text_kontakt h2 {
-    padding: 5px;
-    margin-bottom: 20px;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .footer {
-    background-color: #b5d8ee;
-    color: rgba(0, 0, 0, 0.733);
-    padding: 20px 0;
-    text-align: center;
-    width: 100%;
+  background-color: #b5d8ee;
+  color: rgba(0, 0, 0, 0.733);
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
 }
 
 .footer_content {
-    font-size: 17px;
-    font-family: sans-serif;
-    font-weight: bold;
-
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .footer-section a {
-    font-size: 16px;
-    font-family: sans-serif;
-    color: #000000b5;
-    text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #000000b5;
+  text-decoration: none;
 }
 
 .footer-section p {
-    font-size: 50px;
-    font-family: sans-serif;
-    color: #060b34a9;
-    text-decoration: none;
-
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #060b34a9;
+  text-decoration: none;
 }
 
 .footer-section a {
-    display: block;
-    margin: 5px 0;
+  display: block;
+  margin: 5px 0;
 }
 
 input,
 textarea {
-    max-width: 500px;
+  max-width: 500px;
 }
